@@ -1,0 +1,39 @@
+/* Main styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+ @import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+
+
+.header-top{
+  background-image: url('assets/img/hero2.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.header_overlay{
+  background-color: rgba(0,0,0,0.5);
+  height: 100vh;
+  width: auto;
+}
+
+#typeit{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%;-50%);
+  font-family: Pacifico;
+  font-style: italic;
+  font-size: 40px;
+  color: #fed136;
+}
+
+
+@media only screen and (max-width: 526px) {
+  #typeit{
+    font-size: 20px;
+    top: 40%;
+  }
+}
